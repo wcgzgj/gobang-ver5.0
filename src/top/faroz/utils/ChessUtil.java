@@ -147,7 +147,7 @@ public class ChessUtil {
      * 封装获取棋链的操作，最后获取的是棋链的字符串表现形式
      * @param p 空位
      * @param supposeColor 替换当前空位的颜色
-     * @return
+     * @return 返回被转换为字符串的所有棋链
      */
     public static List<String> getAllStringList(Position p,ChessColor supposeColor) {
 

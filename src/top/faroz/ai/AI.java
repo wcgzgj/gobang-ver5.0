@@ -11,7 +11,7 @@ import top.faroz.domain.ChessColor;
  * @Version 1.0
  **/
 public class AI {
-    public static ChessColor[][] aiPlay(ChessColor[][] map) {
+    public ChessColor[][] aiPlay(ChessColor[][] map) {
         try {
             ChessMap.setMap(map);
         } catch (Exception e) {
@@ -22,8 +22,7 @@ public class AI {
             return null;
         }
 
-
-
+        //获取新的map
         return null;
     }
 }
